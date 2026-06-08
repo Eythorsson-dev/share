@@ -43,9 +43,9 @@
 		324ED9A170AAAD582D40AC59 /* Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Share.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5200023128021C0D458668B2 /* ShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareApp.swift; sourceTree = "<group>"; };
 		AA14FA9AA9563231876478D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B4733358D225C801EA0DE04D /* ShareExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4733358D225C801EA0DE04D /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9B778073049CE5913585B8 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		F9A91E0C396C8570D3BB0BF8 /* Share.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Share.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A91E0C396C8570D3BB0BF8 /* Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Share.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -157,8 +157,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 8DD31D75CA2BE89D750A98DA /* Build configuration list for PBXProject "Share" */;
 			developmentRegion = en;
@@ -224,6 +222,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = P44X5K7TV9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Share/ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -246,6 +245,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Share.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = P44X5K7TV9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
