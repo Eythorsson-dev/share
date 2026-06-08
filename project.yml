@@ -55,6 +55,20 @@ targets:
         platforms: [iOS]
         embed: true
 
+  ShareTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - ShareTests
+    dependencies:
+      - target: Share_macOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: NO
+
   ShareExtension:
     type: app-extension
     platform: iOS
@@ -110,10 +124,13 @@ schemes:
     build:
       targets:
         Share_macOS: all
+        ShareTests: all
     run:
       config: Debug
     test:
       config: Debug
+      targets:
+        - ShareTests
     profile:
       config: Release
     analyze:

@@ -15,6 +15,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DFA0D80E44D6D3A9FC5287D2"
+               BuildableName = "ShareTests.xctest"
+               BlueprintName = "ShareTests"
+               ReferencedContainer = "container:Share.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F9C589699467593E199FD17"
                BuildableName = "Share.app"
                BlueprintName = "Share_macOS"
@@ -32,13 +46,24 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F9C589699467593E199FD17"
-            BuildableName = "Share.app"
-            BlueprintName = "Share_macOS"
+            BlueprintIdentifier = "DFA0D80E44D6D3A9FC5287D2"
+            BuildableName = "ShareTests.xctest"
+            BlueprintName = "ShareTests"
             ReferencedContainer = "container:Share.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DFA0D80E44D6D3A9FC5287D2"
+               BuildableName = "ShareTests.xctest"
+               BlueprintName = "ShareTests"
+               ReferencedContainer = "container:Share.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>
@@ -53,16 +78,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F9C589699467593E199FD17"
-            BuildableName = "Share.app"
-            BlueprintName = "Share_macOS"
+            BlueprintIdentifier = "DFA0D80E44D6D3A9FC5287D2"
+            BuildableName = "ShareTests.xctest"
+            BlueprintName = "ShareTests"
             ReferencedContainer = "container:Share.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <CommandLineArguments>
       </CommandLineArguments>
    </LaunchAction>
@@ -72,18 +96,17 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F9C589699467593E199FD17"
-            BuildableName = "Share.app"
-            BlueprintName = "Share_macOS"
-            ReferencedContainer = "container:Share.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <CommandLineArguments>
       </CommandLineArguments>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DFA0D80E44D6D3A9FC5287D2"
+            BuildableName = "ShareTests.xctest"
+            BlueprintName = "ShareTests"
+            ReferencedContainer = "container:Share.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
