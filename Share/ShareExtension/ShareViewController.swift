@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 import Social
 import UniformTypeIdentifiers
@@ -31,8 +32,9 @@ class ShareViewController: UIViewController {
     }
 
     private func save(url: URL) {
-        // TODO: Save the URL to the shared CloudKit/App Group container
+        // TODO: Save URL to shared App Group container in a later issue
         print("[ShareExtension] Received URL: \(url)")
         extensionContext?.completeRequest(returningItems: nil, completionHandler: nil)
     }
 }
+#endif
